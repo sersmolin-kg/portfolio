@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Сергей Смолин — веб-разработчик</title>
+  <meta
+    name="description"
+    content="Современные сайты для бизнеса в Бишкеке и Кыргызстане. Лендинги и корпоративные сайты от 5–10 дней."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <span class="logo__mark">СС</span>
+        <span class="logo__text">
+          Сергей Смолин
+          <small>Веб-разработчик</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#works">Работы</a>
+        <a href="#process">Как работаю</a>
+        <a href="#about">Обо мне</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a
+        class="button button--small header__button"
+        href="https://wa.me/996998787090"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Написать в WhatsApp
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <div class="eyebrow">Сайты для бизнеса в Бишкеке и Кыргызстане</div>
+
+          <h1>
+            Делаю современные сайты,
+            <span>которые приносят заявки</span>
+          </h1>
+
+          <p class="hero__description">
+            Лендинги и корпоративные сайты для бизнеса. Понятный процесс,
+            современный дизайн и запуск от 5–10 дней.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button" href="#works">Посмотреть работы</a>
+            <a class="button button--outline" href="#contacts">Написать мне</a>
+          </div>
+
+          <div class="hero__features">
+            <div class="feature">
+              <span class="feature__icon">✓</span>
+              <span>Адаптация под телефон</span>
+            </div>
+            <div class="feature">
+              <span class="feature__icon">✓</span>
+              <span>Быстрый запуск</span>
+            </div>
+            <div class="feature">
+              <span class="feature__icon">✓</span>
+              <span>Всегда на связи</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="browser-card browser-card--back">
+            <div class="browser-card__top">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="demo-item demo-item--small">
+                <img src="images/CAFE_HERO.png" />
+            </div>
+          </div>
+
+          <div class="browser-card browser-card--front">
+            <div class="browser-card__top">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+              <div class="demo-item">
+                <img src="images/BARBER_HERO.png" />
+              </div>
+          </div>
+
+          <div class="floating-badge floating-badge--top">
+            <span class="floating-badge__icon">⚡</span>
+            Быстрая загрузка
+          </div>
+
+          <div class="floating-badge floating-badge--bottom">
+            <span class="floating-badge__icon">↗</span>
+            Больше заявок
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section works" id="works">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">Портфолио</div>
+            <h2>Мои работы</h2>
+          </div>
+          <p>
+            Несколько примеров сайтов, которые помогают бизнесу выглядеть
+            профессионально и получать больше обращений.
+          </p>
+        </div>
+
+        <div class="works-grid">
+          <article class="project-card">
+            <div class="project-card__image project-card__image--pink">
+              <img src="images/BARBER_HERO.png" />
+            </div>
+
+            <div class="project-card__content">
+              <div class="project-card__tag">Красота и уход</div>
+              <h3>Сайт салона барбершопа</h3>
+              <p>
+                Лендинг для барбершопа с презентацией услуг, портфолио
+                и формой записи.
+              </p>
+
+              <div class="project-card__footer">
+                <span>Дизайн · Верстка · Форма заявки</span>
+                <a href="https://sersmolin-kg.github.io/barbershop" class="project-link" data-project="Сайт салона красоты">
+                  Открыть сайт <span>↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image project-card__image--orange">
+              <img src="images/CAFE_HERO.png" />
+            </div>
+
+            <div class="project-card__content">
+              <div class="project-card__tag">Ресторанный бизнес</div>
+              <h3>Сайт кафе и ресторана</h3>
+              <p>
+                Стильный сайт с меню, фотографиями блюд, информацией о заведении
+                и удобной кнопкой бронирования.
+              </p>
+
+              <div class="project-card__footer">
+                <span>Адаптивный дизайн · Меню · WhatsApp</span>
+                <a href="https://sersmolin-kg.github.io/cafe" class="project-link" data-project="Сайт кафе и ресторана">
+                  Открыть сайт <span>↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image project-card__image--blue">
+              <img src="images/STROY_HERO.png" />
+            </div>
+
+            <div class="project-card__content">
+              <div class="project-card__tag">Строительство</div>
+              <h3>Сайт строительной компании</h3>
+              <p>
+                Корпоративный сайт с описанием услуг, выполненными объектами,
+                преимуществами компании и заявкой на консультацию.
+              </p>
+
+              <div class="project-card__footer">
+                <span>Корпоративный сайт · Каталог услуг</span>
+                <a href="https://sersmolin-kg.github.io/stroitelstvo" class="project-link" data-project="Сайт строительной компании">
+                  Открыть сайт <span>↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="process">
+      <div class="container">
+        <div class="section-heading section-heading--center">
+          <div>
+            <div class="eyebrow">Простой процесс</div>
+            <h2>Как я работаю</h2>
+          </div>
+          <p>
+            Без сложных терминов и неожиданных сюрпризов. Вы понимаете, что
+            происходит на каждом этапе.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-item">
+            <span class="process-item__number">01</span>
+            <div class="process-item__icon">☏</div>
+            <h3>Обсуждаем задачу</h3>
+            <p>Узнаю о вашем бизнесе, целях сайта и согласовываю бюджет.</p>
+          </div>
+
+          <div class="process-item">
+            <span class="process-item__number">02</span>
+            <div class="process-item__icon">✎</div>
+            <h3>Создаю дизайн</h3>
+            <p>Показываю структуру и внешний вид будущего сайта.</p>
+          </div>
+
+          <div class="process-item">
+            <span class="process-item__number">03</span>
+            <div class="process-item__icon">⌘</div>
+            <h3>Верстаю и запускаю</h3>
+            <p>Собираю сайт, подключаю формы и проверяю его на телефонах.</p>
+          </div>
+
+          <div class="process-item">
+            <span class="process-item__number">04</span>
+            <div class="process-item__icon">♧</div>
+            <h3>Передаю вам</h3>
+            <p>Помогаю с настройкой и остаюсь на связи после запуска.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section prices">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">Стоимость</div>
+            <h2>Понятные цены</h2>
+          </div>
+          <p>Финальная стоимость зависит от количества страниц и задач проекта.</p>
+        </div>
+
+        <div class="prices-grid">
+          <article class="price-card">
+            <div class="price-card__icon">◫</div>
+            <h3>Лендинг</h3>
+            <p>Одностраничный сайт для услуги, товара или рекламной кампании.</p>
+            <div class="price">от 25 000 <small>сом</small></div>
+            <a class="button button--outline" href="#contacts">Обсудить проект</a>
+          </article>
+
+          <article class="price-card price-card--featured">
+            <div class="price-card__label">Популярный вариант</div>
+            <div class="price-card__icon">▦</div>
+            <h3>Корпоративный сайт</h3>
+            <p>Полноценный сайт компании с несколькими разделами и услугами.</p>
+            <div class="price">от 50 000 <small>сом</small></div>
+            <a class="button" href="#contacts">Обсудить проект</a>
+          </article>
+
+          <article class="price-card">
+            <div class="price-card__icon">↻</div>
+            <h3>Поддержка</h3>
+            <p>Изменения, добавление материалов и помощь после запуска сайта.</p>
+            <div class="price price--text">По договорённости</div>
+            <a class="button button--outline" href="#contacts">Задать вопрос</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__visual">
+          <div class="about-photo">
+            <div class="about-demo-item">
+              <img src="images/1665492676360.jpeg" />
+            </div>
+          </div>
+
+          <div class="about-sticker">
+            <strong>5+</strong>
+            <span>лет в создании<br />сайтов</span>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <div class="eyebrow">Обо мне</div>
+          <h2>Помогаю бизнесу выглядеть профессионально в интернете</h2>
+
+          <p>
+            Меня зовут Сергей. Я создаю современные сайты для предпринимателей
+            и компаний в Бишкеке и по всему Кыргызстану.
+          </p>
+
+          <p>
+            Моя задача — не просто сделать красивую страницу, а помочь вам
+            понятно рассказать о бизнесе и получать больше обращений от клиентов.
+          </p>
+
+          <div class="about-list">
+            <div class="about-list__item">
+              <span>✓</span>
+              Быстро объясняю сложное простыми словами
+            </div>
+            <div class="about-list__item">
+              <span>✓</span>
+              Всегда остаюсь на связи в WhatsApp
+            </div>
+            <div class="about-list__item">
+              <span>✓</span>
+              Соблюдаю сроки и заранее предупреждаю о важных моментах
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacts">
+      <div class="container contact-section__inner">
+        <div>
+          <div class="eyebrow eyebrow--light">Есть идея?</div>
+          <h2>Давайте обсудим ваш будущий сайт</h2>
+          <p>
+            Напишите мне — расскажите о своей задаче. Я отвечу на вопросы,
+            предложу решение и сориентирую по стоимости.
+          </p>
+        </div>
+
+        <div class="contact-section__actions">
+          <a
+            class="button button--light"
+            href="https://wa.me/996998787090"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Написать в WhatsApp <span>↗</span>
+          </a>
+
+          <a
+            class="button button--telegram"
+            href="https://t.me/serge_smolin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Написать в Telegram <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="logo">
+        <span class="logo__mark">СС</span>
+        <span class="logo__text">
+          Сергей Смолин
+          <small>Веб-разработчик</small>
+        </span>
+      </div>
+
+      <div class="footer__contacts">
+        <a href="tel:+996998787090">+996 998 787 090</a>
+        <a href="mailto:sersmolinkg@gmail.com">sersmolinkg@gmail.com</a>
+      </div>
+
+      <div class="footer__socials">
+        <a
+          href="https://wa.me/996998787090"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp"
+        >
+          WA
+        </a>
+        <a
+          href="https://t.me/serge_smolin"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Telegram"
+        >
+          TG
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <span>© <span id="currentYear"></span> Сергей Смолин</span>
+      <span>Сайты для бизнеса</span>
+    </div>
+    <div style="font-size: 0.85rem; color: #777; text-align: center; margin-top: 40px;">
+      © 2026 | Услуги оказываются только для клиентов из Кыргызстана.
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">
+    Ссылка на проект пока находится в разработке
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
